@@ -7,3 +7,8 @@ set -e
 # tidymodels
 install2.r --error --skipinstalled -n -1 \
     tidymodels
+
+# multilevel models
+install2.r --error --skipinstalled -n -1 \
+    nlme                                 \
+    lmer4
