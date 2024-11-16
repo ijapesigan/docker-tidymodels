@@ -10,5 +10,7 @@ install2.r --error --skipinstalled -n -1 \
 
 # multilevel models
 install2.r --error --skipinstalled -n -1 \
-    nlme                                 \
-    lmer4
+    nlme
+    # lmer4
+
+Rscript -e "install.packages(\"lme4\", type = \"source\")"
