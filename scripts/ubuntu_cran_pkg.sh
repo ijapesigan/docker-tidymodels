@@ -12,5 +12,3 @@ install2.r --error --skipinstalled -n -1 \
 install2.r --error --skipinstalled -n -1 \
     nlme                                 \
     lme4
-
-# Rscript -e "install.packages(\"lme4\", type = \"source\")"
