@@ -1,4 +1,4 @@
-FROM ijapesigan/tidymodels:main
+FROM ijapesigan/tidymodels:latest
 
 ADD scripts /usr/src/local/src
 RUN chmod 777 /usr/src/local/src/setup.sh         && \
