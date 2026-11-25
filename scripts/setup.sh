@@ -16,5 +16,6 @@ fi
 bash install-cran.sh
 bash rproject_sys.sh
 bash rproject.sh
+bash install-github.sh
 bash check.sh
 bash post.sh
